@@ -1,9 +1,10 @@
+package modul20.pages;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 
-public class LoginTest extends BasePage {
+public class LoginTest extends  BasePage {
 
     @FindBy(css = ".bold.subscriber-register-btn")
     private WebElement makeAccount;

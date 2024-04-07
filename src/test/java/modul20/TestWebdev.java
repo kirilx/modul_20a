@@ -1,8 +1,14 @@
+package modul20;
+
+import modul20.base.MainTest;
+import modul20.pages.AutomationPage;
+import modul20.pages.LoginTest;
+import modul20.pages.RegistrationPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-public class TestWebdev extends Maindriver {
+public class TestWebdev extends MainTest {
 
 
     @Test

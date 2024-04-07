@@ -1,3 +1,5 @@
+package modul20.pages;
+
 import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -14,6 +16,7 @@ public class AutomationPage extends BasePage {
 
     @FindBy(xpath = "//*[@id='filter-job_location']/div[2]/div[2]/span[1]")
     private WebElement fullyRemote;
+    ////*[text()='Fully Remote']
 
     @FindBy(xpath = "//*[@id='filter-job_location']/div[2]/div[3]/span[1]")
     private WebElement jobsVarna;
